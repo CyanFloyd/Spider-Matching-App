@@ -1,0 +1,41 @@
+{
+  "name": "Spider Weight Matching",
+  "short_name": "SpiderMatch",
+  "description": "Tournament fighter weight matching application",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3B82F6",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512", 
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["sports", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Add Fighter",
+      "short_name": "Add Fighter", 
+      "description": "Quickly add a new fighter entry",
+      "url": "/?action=add",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "View Matches",
+      "short_name": "Matches",
+      "description": "View generated matches", 
+      "url": "/?action=matches",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
